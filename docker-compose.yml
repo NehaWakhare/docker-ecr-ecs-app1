@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    build: .
+    image: "neha676/two-tier-backend:latest"
     ports:
       - "3000:3000"
     container_name: node-ecs-app
